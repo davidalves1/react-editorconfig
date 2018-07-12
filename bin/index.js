@@ -44,10 +44,10 @@ const main = async () => {
     } catch (err) {
       return console.log(err);
     }
-  })
+  });
 
   console.log('\nBye!');
   process.exit();
-}
+};
 
 main();

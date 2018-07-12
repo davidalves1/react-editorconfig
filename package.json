@@ -18,7 +18,7 @@
   "keywords": [
     "npm",
     "cli",
-    "boilerplate"
+    "editorconfig"
   ],
   "author": "davidalves1 <alves.david@outlook.com> (https://davidalves1.com)",
   "license": "MIT",
@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/davidalves1/react-editorconfig#readme",
   "dependencies": {
+    "co": "^4.6.0",
     "co-prompt": "^1.0.0"
   }
 }
