@@ -1,0 +1,38 @@
+{
+  "name": "react-editorconfig",
+  "version": "0.0.1",
+  "description": "Create a react based .editoconfig file",
+  "main": "index.js",
+  "bin": {
+    "redit": "./bin/index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js bin/*.js",
+    "prepush": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidalves1/react-editorconfig.git"
+  },
+  "keywords": [
+    "npm",
+    "cli",
+    "boilerplate"
+  ],
+  "author": "davidalves1 <alves.david@outlook.com> (https://davidalves1.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidalves1/react-editorconfig/issues"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "husky": "^0.14.3"
+  },
+  "homepage": "https://github.com/davidalves1/react-editorconfig#readme",
+  "dependencies": {
+    "co-prompt": "^1.0.0"
+  }
+}
