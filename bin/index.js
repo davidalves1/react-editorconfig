@@ -19,7 +19,7 @@ const main = async () => {
 
     const template = [
       '# http://editorconfig.org',
-      'root = false',
+      'root = true',
       '\r',
       '[*]',
       'charset = utf-8',
