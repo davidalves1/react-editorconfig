@@ -1,5 +1,5 @@
 # react-editorconfig
-A simple cli to create the .editorconfig of the your react project
+A simple cli to create the .editorconfig for your react project
 
 ## Getting Started
 

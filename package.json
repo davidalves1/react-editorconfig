@@ -1,7 +1,7 @@
 {
   "name": "react-editorconfig",
-  "version": "0.0.1",
-  "description": "Create a react based .editoconfig file",
+  "version": "0.0.4",
+  "description": "A simple cli to create the .editorconfig for your react project",
   "main": "index.js",
   "bin": {
     "redit": "./bin/index.js"
